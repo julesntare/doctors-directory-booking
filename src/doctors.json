@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "fullname": "Dr. Bukara Emmanuel",
+    "speciality": "orthopedics",
+    "profile": "https://kfh.rw/wp-content/uploads/2020/09/DSC_3898-1.jpg",
+    "address": {
+      "mobile": "+250783825851",
+      "email": "bukara.emmanuel@kfhkigali.com",
+      "street": "KG 561 st"
+    },
+    "days_available": {
+      "monday": [8, 17],
+      "thursday": [10, 17]
+    },
+    "operation_interval": 30
+  },
+  {
+    "id": 2,
+    "fullname": "Dr. Albert Nzayisenga",
+    "speciality": "orthopedics",
+    "profile": "https://kfh.rw/wp-content/uploads/2020/09/ALBERT.jpg",
+    "address": {
+      "mobile": "+250783825851",
+      "email": "albert.nzayisenga@kfhkigali.com",
+      "street": "KG 561 st"
+    },
+    "days_available": {
+      "monday": [8, 17],
+      "wednesday": [8, 19]
+    },
+    "operation_interval": 30
+  },
+  {
+    "id": 3,
+    "fullname": "Prof. Emmy Agabe Nkusi",
+    "speciality": "neurosurgery",
+    "profile": "https://kfh.rw/wp-content/uploads/2020/09/DSC_2038-e1606835089759.jpg",
+    "address": {
+      "mobile": "+250783825851",
+      "email": "emmy.nkusi@kfhkigali.com",
+      "street": "KG 561 st"
+    },
+    "days_available": {
+      "monday": [8, 17],
+      "thursday": [10, 17]
+    },
+    "operation_interval": 60
+  },
+  {
+    "id": 4,
+    "fullname": "Prof. Dr. Chong Wei Min",
+    "speciality": "cardiology",
+    "profile": "https://kfh.rw/wp-content/uploads/2021/03/DSC_8430-1.jpg",
+    "address": {
+      "mobile": "+250783825851",
+      "email": "chong.wei@kfhkigali.com",
+      "street": "KG 561 st"
+    },
+    "days_available": {
+      "monday": [8, 17],
+      "thursday": [10, 17],
+      "saturday": [9, 15]
+    },
+    "operation_interval": 30
+  },
+  {
+    "id": 5,
+    "fullname": "Dr. Uwurukundo Jeanne Marie Claude",
+    "speciality": "pediatrics",
+    "profile": "https://kfh.rw/wp-content/uploads/2020/09/IMG_8767-scaled-e1601272825588.jpg",
+    "address": {
+      "mobile": "+250783825851",
+      "email": "jmc.uwurukundo@kfhkigali.com",
+      "street": "KG 561 st"
+    },
+    "days_available": {
+      "monday": [8, 17],
+      "thursday": [10, 17]
+    },
+    "operation_interval": 30
+  }
+]
