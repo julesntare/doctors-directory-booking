@@ -177,7 +177,10 @@ const DoctorDetails = () => {
                     </span>
                     <span className="tracking-wide">Book a Slot</span>
                   </div>
-                  <CalendarSlots />
+                  <CalendarSlots
+                    availability={values.days_available}
+                    interval={values.operation_interval}
+                  />
                 </div>
               </div>
             </div>
