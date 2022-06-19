@@ -177,7 +177,18 @@ const DoctorDetails = () => {
                     </span>
                     <span className="tracking-wide">Book a Slot</span>
                   </div>
-                  <CalendarSlots />
+                  <CalendarSlots
+                    availability={values.days_available}
+                    interval={values.operation_interval}
+                  />
+                  <div className="flex justify-center mt-3">
+                    <button
+                      type="button"
+                      className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      Book Appointment Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
