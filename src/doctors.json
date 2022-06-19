@@ -4,15 +4,18 @@
     "fullname": "Dr. Bukara Emmanuel",
     "speciality": "orthopedics",
     "profile": "https://kfh.rw/wp-content/uploads/2020/09/DSC_3898-1.jpg",
+    "desc": "a consultant orthopedic surgeon at King Faisal Hospital, Kigali. His areas of expertise are sports medicine, particularly in knee surgery and traumatology. He also has a special interest in arthroplasty.",
     "address": {
       "mobile": "+250783825851",
       "email": "bukara.emmanuel@kfhkigali.com",
       "street": "KG 561 st"
     },
-    "days_available": {
-      "monday": [8, 17],
-      "thursday": [10, 17]
-    },
+    "days_available": [
+      {
+        "monday": ["8:00", "17:00"]
+      },
+      { "thursday": ["10:30", "17:00"] }
+    ],
     "operation_interval": 30
   },
   {
@@ -20,15 +23,18 @@
     "fullname": "Dr. Albert Nzayisenga",
     "speciality": "orthopedics",
     "profile": "https://kfh.rw/wp-content/uploads/2020/09/ALBERT.jpg",
+    "desc": "an orthopedic surgeon at King Faisal Hospital, Kigali. His areas of expertise are general orthopedics, hip arthroplasty and spine.",
     "address": {
       "mobile": "+250783825851",
       "email": "albert.nzayisenga@kfhkigali.com",
       "street": "KG 561 st"
     },
-    "days_available": {
-      "monday": [8, 17],
-      "wednesday": [8, 19]
-    },
+    "days_available": [
+      {
+        "monday": ["8:00", "17:00"]
+      },
+      { "wednesday": ["9:00", "19:00"] }
+    ],
     "operation_interval": 30
   },
   {
@@ -36,15 +42,18 @@
     "fullname": "Prof. Emmy Agabe Nkusi",
     "speciality": "neurosurgery",
     "profile": "https://kfh.rw/wp-content/uploads/2020/09/DSC_2038-e1606835089759.jpg",
+    "desc": "the chief consultant neurosurgeon at King Faisal Hospital Kigali. His areas of focus are neurovascular surgery, spine surgery and neuro-oncology.",
     "address": {
       "mobile": "+250783825851",
       "email": "emmy.nkusi@kfhkigali.com",
       "street": "KG 561 st"
     },
-    "days_available": {
-      "monday": [8, 17],
-      "thursday": [10, 17]
-    },
+    "days_available": [
+      {
+        "monday": ["8:00", "17:00"]
+      },
+      { "thursday": ["10:30", "17:00"] }
+    ],
     "operation_interval": 60
   },
   {
@@ -52,16 +61,19 @@
     "fullname": "Prof. Dr. Chong Wei Min",
     "speciality": "cardiology",
     "profile": "https://kfh.rw/wp-content/uploads/2021/03/DSC_8430-1.jpg",
+    "desc": "a Consultant Interventional Cardiologist at King Faisal Hospital. He currently serves as Professor of Interventional Cardiology at MAHSA UNIVERSITY in Kuala Lumpur, Malaysia. He graduated with Distinction from the Royal Postgraduate Medical School, Hammersmith Hospital, Imperial College London in both Internal Medicine and Cardiology and completed the UMDS Guys St Thomas Canterbury at the University of Newcastle Upon Tyne (Interventional Cardiology Program) and was Distinguished Alumni, Chevening Scholarship in Cardiology.",
     "address": {
       "mobile": "+250783825851",
       "email": "chong.wei@kfhkigali.com",
       "street": "KG 561 st"
     },
-    "days_available": {
-      "monday": [8, 17],
-      "thursday": [10, 17],
-      "saturday": [9, 15]
-    },
+    "days_available": [
+      {
+        "monday": ["8:00", "17:00"]
+      },
+      { "thursday": ["10:00", "17:00"] },
+      { "saturday": ["9:00", "16:00"] }
+    ],
     "operation_interval": 30
   },
   {
@@ -69,15 +81,18 @@
     "fullname": "Dr. Uwurukundo Jeanne Marie Claude",
     "speciality": "pediatrics",
     "profile": "https://kfh.rw/wp-content/uploads/2020/09/IMG_8767-scaled-e1601272825588.jpg",
+    "desc": "a consultant pediatrician at King Faisal Hospital, Kigali. Her areas of focus are general pediatrics and neonatology.",
     "address": {
       "mobile": "+250783825851",
       "email": "jmc.uwurukundo@kfhkigali.com",
       "street": "KG 561 st"
     },
-    "days_available": {
-      "monday": [8, 17],
-      "thursday": [10, 17]
-    },
+    "days_available": [
+      {
+        "monday": ["8:00", "17:00"]
+      },
+      { "thursday": ["10:00", "17:00"] }
+    ],
     "operation_interval": 30
   }
 ]

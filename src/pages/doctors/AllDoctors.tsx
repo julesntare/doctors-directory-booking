@@ -52,15 +52,13 @@ const AllDoctors = () => {
         All Doctors
       </h2>
       <div className="grid gap-5 md:grid-cols-2">
-        {
-          // doctors.length ? (
+        {doctors.length ? (
           renderDoctors()
-          // ) : (
-          //   <p className="text-center col-span-2 text-gray-700 font-semibold">
-          //     No Doctor Yet
-          //   </p>
-          // )
-        }
+        ) : (
+          <p className="text-center col-span-2 text-gray-700 font-semibold">
+            No Doctor Yet
+          </p>
+        )}
       </div>
     </>
   );
