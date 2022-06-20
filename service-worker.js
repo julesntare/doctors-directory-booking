@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/doctors-directory-booking/precache-manifest.24afc116f5768edb72598954f8ea292a.js"
+  "/doctors-directory-booking/precache-manifest.5f882b9c348f67c123581d60dafd98db.js"
 );
 
 workbox.clientsClaim();
