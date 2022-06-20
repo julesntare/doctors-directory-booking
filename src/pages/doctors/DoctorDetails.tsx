@@ -4,6 +4,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { IDoctor } from "../../interfaces/IDoctor";
 import CalendarSlots from "../../components/CalendarSlots";
+import AppointForm from "../../components/AppointForm";
 
 const DoctorDetails = () => {
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ const DoctorDetails = () => {
     days_available,
     operation_interval,
   } = existingDoctor[0];
+
   const [values] = useState<IDoctor>({
     id,
     fullname,
@@ -32,6 +34,8 @@ const DoctorDetails = () => {
     days_available,
     operation_interval,
   });
+
+  const [openAppointForm, setOpenAppointForm] = useState<boolean>(false);
 
   const renderDoctorDetails = () => (
     <div className="bg-gray-100">
@@ -177,17 +181,22 @@ const DoctorDetails = () => {
                     </span>
                     <span className="tracking-wide">Book a Slot</span>
                   </div>
-                  <CalendarSlots
-                    availability={values.days_available}
-                    interval={values.operation_interval}
-                  />
+                  <CalendarSlots />
                   <div className="flex justify-center mt-3">
                     <button
                       type="button"
                       className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                      onClick={() => setOpenAppointForm(true)}
                     >
                       Book Appointment Now
                     </button>
+                    {openAppointForm && (
+                      <AppointForm
+                        openModal={true}
+                        availability={values.days_available}
+                        interval={values.operation_interval}
+                      />
+                    )}
                   </div>
                 </div>
               </div>

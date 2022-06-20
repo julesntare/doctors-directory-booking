@@ -1,8 +1,10 @@
 {
   "name": "zatec-tsc-doctors-booking-app",
+  "homepage": "https://julesntare.github.io/doctors-directory-booking/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^1.6.4",
     "@reduxjs/toolkit": "^1.8.2",
     "@tailwindcss/forms": "^0.5.2",
     "@testing-library/jest-dom": "^5.16.4",
